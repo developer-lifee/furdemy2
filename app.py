@@ -5,7 +5,9 @@ from flask_wtf import FlaskForm
 from wtforms import StringField, PasswordField, validators
 import numpy as np
 
+
 app = Flask(__name__)
+
 
 # Define un formulario de registro usando Flask-WTF
 class RegistrationForm(FlaskForm):
